@@ -1,0 +1,4 @@
+docker-compose/db/*
+__temp/*
+www/*
+docker-compose/nginx/logs/*
