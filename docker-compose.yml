@@ -14,6 +14,7 @@ services:
       - ./www:/var/www
       - ./docker-compose/nginx/conf.d:/etc/nginx/conf.d
       - ./docker-compose/nginx/logs:/var/log/nginx
+      - ./docker-compose/nginx/certs:/etc/nginx/certs/
 
   php:
     build:

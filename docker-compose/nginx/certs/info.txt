@@ -1,0 +1,6 @@
+
+https://medium.com/@x16suhan/configure-nginx-docker-image-with-ssl-certificates-in-windows-10-for-localhost-ceb3a7e3b647
+
+Generate certificates:
+	openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx-selfsigned.key -out nginx-selfsigned.crt
+
