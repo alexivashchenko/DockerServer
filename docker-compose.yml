@@ -2,7 +2,7 @@ version: "3.7"
 services:
 
   nginx:
-    image: nginx:alpine
+    image: nginx
     container_name: nginx
     restart: unless-stopped
     ports:
@@ -18,7 +18,7 @@ services:
 
   php:
     build:
-      context: ./docker-compose/php-7.4/
+      context: ./docker-compose/php-8.0/
       dockerfile: Dockerfile
     container_name: php
     restart: unless-stopped
